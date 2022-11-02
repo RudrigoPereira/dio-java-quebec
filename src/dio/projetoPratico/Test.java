@@ -1,5 +1,6 @@
 package dio.projetoPratico;
 
+import dio.projetoPratico.facade.Facade;
 import dio.projetoPratico.singleton.SingletonEager;
 import dio.projetoPratico.singleton.SingletonLazy;
 import dio.projetoPratico.singleton.SingletonLazyHolder;
@@ -38,5 +39,9 @@ public class Test {
         robo.mover();
         robo.mover();
         robo.mover();
+
+        //Facade
+        Facade facade = new Facade();
+        facade.migrarCliente("Rodrigo", "01234-567");
     }
 }
