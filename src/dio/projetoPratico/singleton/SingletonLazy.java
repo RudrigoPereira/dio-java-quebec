@@ -1,4 +1,4 @@
-package dio.projetoPratico;
+package dio.projetoPratico.singleton;
 
 /**
  * Singleton "preguiçoso"
